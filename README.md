@@ -4,10 +4,6 @@
 
 DuaCatPalette is an original open source theme featuring light-size. It doesn't provide functions of Account Management, Comment Management, Access Data Management and so on. Here, along with the dark theme, you'll get an pure experience of creating and uploading. Don't need care about visitor volume, criticism or any other factor comes from your visitors or fans. Of course, you are not completely isolated. I have left you some interfaces to set up links to your account on other social platforms.
 
-This is my own site, using this theme as a demo.
-
-[duawiehspace.top](https://duawieh.github.io)
-
 ---
 
 
@@ -69,9 +65,11 @@ Your profile information is written in `config/aboutME.json`, edit it at the sam
 }
 ```
 
-If the json file you edited has worked, it will be performed below the homepage。
+If the json file you edited has worked, it will be performed below the homepage.
 
 I have prepared eight common icons for you in `config/Link_Icon`，you can also make more images if necessary.
+
+**It must be noticed that the JSON files should not include comment!!**
 
 
 
@@ -89,7 +87,7 @@ Contents are contained in the folder `contents/`, you can post two type of conte
         "title": "the Title of the Content",	// [any string] The title
         "subtitle": "Give a brief introduction",// [any string] The subtitle
         "cover": "url of the cover",			// [a url or null] the link to the cover, or NULL is okay
-        "date": "YYYY.MM.DD | hh:mm",			// Upload date
+        "date": "YYYY.MM.DD | hh:mm",			// Upload date, DD.MM.YYYY form is also OKay.
         "tags": ["tag1", "tag2", "tag3"],		// [an array of any string] tags
         "url": "contents/blogs/0000000001.md"	// [a url] the link to the markdown file
     },
